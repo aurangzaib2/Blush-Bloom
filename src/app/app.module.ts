@@ -37,7 +37,7 @@ import { AgmCoreModule } from '@agm/core';
     BrowserAnimationsModule,
     CarouselModule,
     AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyAXoLVTYynLfmG39FHYp_CICRMC9DzppDg'
+      apiKey: ''
     })
   ],
   providers: [],
