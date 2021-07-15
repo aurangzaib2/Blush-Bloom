@@ -16,7 +16,8 @@ import { AppointmentComponent } from './appointment/appointment.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { AgmCoreModule } from '@agm/core';
-import {FormsModule} from '@angular/forms'
+import {FormsModule} from '@angular/forms';
+import { AppointmentFormComponent } from './appointment-form/appointment-form.component'
 @NgModule({
   declarations: [
     AppComponent,
@@ -29,7 +30,8 @@ import {FormsModule} from '@angular/forms'
     ExpertComponent,
     FaqComponent,
     ContactComponent,
-    AppointmentComponent
+    AppointmentComponent,
+    AppointmentFormComponent
   ],
   imports: [
     BrowserModule,
