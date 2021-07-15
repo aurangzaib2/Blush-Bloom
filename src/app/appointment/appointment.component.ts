@@ -6,6 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./appointment.component.scss']
 })
 export class AppointmentComponent implements OnInit {
+name:any="";
+phone:any;
+serviceName:string="";
+time:any;
+
 
   constructor() { }
 

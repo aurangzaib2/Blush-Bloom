@@ -16,7 +16,7 @@ import { AppointmentComponent } from './appointment/appointment.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { AgmCoreModule } from '@agm/core';
-
+import {FormsModule} from '@angular/forms'
 @NgModule({
   declarations: [
     AppComponent,
@@ -36,6 +36,7 @@ import { AgmCoreModule } from '@agm/core';
     AppRoutingModule,
     BrowserAnimationsModule,
     CarouselModule,
+    FormsModule,
     AgmCoreModule.forRoot({
       apiKey: ''
     })

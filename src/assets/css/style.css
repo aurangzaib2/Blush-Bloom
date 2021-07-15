@@ -232,6 +232,24 @@ p {
   transition: .5s
 }
 
+.primary-btn[disabled],
+.primary-btn[disabled]:hover,
+.primary-btn[disabled]:focus,
+.primary-btn[disabled]:active,
+.primary-btn[disabled]:active:focus,
+.primary-btn.disable,
+.primary-btn.disabled:hover,
+.primary-btn.disabled:focus,
+.primary-btn.disabled:active,
+.primary-btn.disabled:active:focus {
+  outline: none !important;
+  cursor: not-allowed;
+  background: #7d7d7d;
+  color: #fff;
+  text-transform: capitalize;
+  border: 1px solid transparent;
+}
+
 .primary-btn:hover {
   color: #b4765a;
   background-color: transparent;
