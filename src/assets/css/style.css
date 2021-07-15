@@ -144,6 +144,7 @@ p {
 }
 
 .section-title {
+  
   max-width: 720px;
   text-align: center;
   margin-right: auto;
@@ -154,11 +155,12 @@ p {
 }
 
 .section-title h2 {
-  font-size: 50px;
+  font-size: 40px;
   padding-bottom: 25px;
   margin-bottom: 25px;
   position: relative;
-  display: inline-block
+  display: inline-block;
+  color: palevioletred
 }
 
 .section-title h2 span {
@@ -1920,7 +1922,8 @@ textarea.form-control {
 }
 
 .gallery-section .section-title h2 {
-  margin-bottom: 0
+  margin-bottom: 0;
+  color:palevioletred
 }
 
 .gallery-section .card {
@@ -8607,4 +8610,7 @@ label {
   width: 84%;
   padding-left: 300px;
   margin-bottom: 20px;
+}
+.Headspan{
+  font-size: 18px;
 }
