@@ -18,6 +18,8 @@ import { CarouselModule } from 'ngx-owl-carousel-o';
 import { AgmCoreModule } from '@agm/core';
 import {FormsModule} from '@angular/forms';
 import { AppointmentFormComponent } from './appointment-form/appointment-form.component'
+import { HttpClientModule }  from '@angular/common/http'; 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -39,6 +41,7 @@ import { AppointmentFormComponent } from './appointment-form/appointment-form.co
     BrowserAnimationsModule,
     CarouselModule,
     FormsModule,
+    HttpClientModule,
     AgmCoreModule.forRoot({
       apiKey: ''
     })
